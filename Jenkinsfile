@@ -26,7 +26,7 @@ pipeline {
         AWS_ECS_NETWORK_MODE = 'awsvpc'
         AWS_ECS_CPU = '256'
         AWS_ECS_MEMORY = '512'
-        AWS_ECS_CLUSTER = 'first-demo-cluster'
+        AWS_ECS_CLUSTER = 'JenkinsFargateDemo'
         AWS_ECS_TASK_DEFINITION_PATH = './ecs/container-definition-update-image.json'
     }
 
