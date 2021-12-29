@@ -12,7 +12,7 @@ pipeline {
 
     tools {
         jdk 'jdk-install'
-        maven 'Maven'
+        maven 'maven'
         dockerTool 'docker'
     }
 
