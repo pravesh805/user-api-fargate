@@ -12,7 +12,7 @@ pipeline {
 
     tools {
         jdk 'jdk-1.11'
-        maven 'maven'
+        maven 'maven:3.6'
         dockerTool 'docker'
     }
 
