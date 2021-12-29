@@ -11,7 +11,7 @@ pipeline {
     }
 
     tools {
-        jdk 'jdk-install'
+        jdk 'jdk-1.11'
         maven 'maven'
         dockerTool 'docker'
     }
