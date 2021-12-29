@@ -11,8 +11,8 @@ pipeline {
     }
 
     tools {
-        jdk 'openjdk-1.11'
-        maven 'Maven 3.6.3'
+        jdk 'openjdk'
+        maven 'Maven'
         dockerTool 'docker'
     }
 
